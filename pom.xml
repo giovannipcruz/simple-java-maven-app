@@ -53,7 +53,7 @@
         e.g.: mvn clean install Denforcer.skip
         -->
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.4.1</version>
         <executions>
           <execution>
             <id>enforce-maven</id>
