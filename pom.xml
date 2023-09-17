@@ -46,6 +46,12 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <!-- 
+        Use "-Denforcer.skip" from the command line to skip the maven-enforcer-plugin. 
+        Please refer to https://maven.apache.org/enforcer/maven-enforcer-plugin/usage.html
+        for more details.
+        e.g.: mvn clean install Denforcer.skip
+        -->
         <artifactId>maven-enforcer-plugin</artifactId>
         <version>3.3.0</version>
         <executions>
